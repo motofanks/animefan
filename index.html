@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANKS - ガールズバンドクライ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FANKS - ガールズバンドクライ</h1>
+        <nav>
+            <button id="homeBtn">ホーム</button>
+            <button id="profileBtn">プロフィール</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>『ガールズバンドクライ』（GIRLS BAND CRY）</h2>
+            <p>東映アニメーション、agehasprings、ユニバーサルミュージックによる日本のメディアミックスプロジェクト。</p>
+            <a href="https://girls-band-cry.com/" target="_blank">公式サイト</a>
+            
+            <h3>最近の投稿</h3>
+            <div id="posts"></div>
+        </section>
+
+        <section id="profile" style="display:none;">
+            <h2>プロフィール</h2>
+            <form id="postForm">
+                <textarea id="postContent" maxlength="140" placeholder="ガールズバンドクライについて投稿しよう！"></textarea>
+                <button type="submit">投稿</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FANKS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
